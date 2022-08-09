@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my homepage</h1>
+    <form action="{% url 'result' %}">
+
+        {% csrf_token %}
+        <input type="text" required name="a"> <br> <br>
+        <input type="text" required name="b"> <br> <br>
+        <input type="text" required name="c"> <br> <br>
+        <input type="text" required name="d"> <br> <br>
+        <input type="text" required name="e"> <br> <br>
+        <input type="text" required name="f"> <br> <br>
+        <input type="text" required name="g"> <br> <br>
+        <input type="text" required name="h"> <br> <br>
+        <input type="text" required name="i"> <br> <br>
+        <input type="text" required name="j"> <br> <br>
+        <input type="text" required name="k"> <br> <br>
+        <input type="text" required name="l"> <br> <br>
+        <input type="text" required name="m"> <br> <br>
+
+        <input type="submit" name="" value="submit">
+    </form>
+</body>
+</html>
